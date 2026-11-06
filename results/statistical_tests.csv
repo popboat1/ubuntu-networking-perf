@@ -1,0 +1,7 @@
+metric,pair,mean_a,mean_b,diff_pct,p_value,significant
+Throughput (Mbps),NAT vs Host-Only,544.6,519.033,-4.7,0.0384,no
+Throughput (Mbps),NAT vs Bridged,544.6,678.9,24.7,3.33e-09,yes
+Throughput (Mbps),Host-Only vs Bridged,519.033,678.9,30.8,6.09e-10,yes
+Latency (ms),NAT vs Host-Only,0.865,0.602,-30.4,9.73e-10,yes
+Latency (ms),NAT vs Bridged,0.865,0.603,-30.3,7.37e-10,yes
+Latency (ms),Host-Only vs Bridged,0.602,0.603,0.2,0.836,no
